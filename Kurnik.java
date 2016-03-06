@@ -3,12 +3,12 @@ import greenfoot.*;
 public class Kurnik extends World
 {
     Licznik napis;
-    Wilk wilk;
+    Kot scratchus;
     public Kurnik()
     {    
         super(800, 600, 1); 
-        wilk= new Wilk();
-        addObject(wilk, 400, 500);
+        scratchus = new Kot();
+        addObject(scratchus, 400, 500);
         
         Grzeda grzeda1 = new Grzeda();
         addObject(grzeda1, 685, 150);
@@ -30,7 +30,6 @@ public class Kurnik extends World
     
     public void act(){
         Greenfoot.setSpeed(20+(int)napis.pkt/5);
-        //int wiecejJajek = (int) napis.pkt/5 + 7;
       if(numberOfObjects()<7){
         dodajJajko();
         }

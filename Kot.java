@@ -1,6 +1,6 @@
 import greenfoot.*;
 
-public class Wilk extends Actor
+public class Kot extends Actor
 {
     int gdzie;
     
@@ -8,21 +8,21 @@ public class Wilk extends Actor
     {
         if(Greenfoot.isKeyDown("a")){
             gdzie=3;
-            setLocation(390,240);
-            setImage("nupogodi.png");
+            setLocation(370,210);
+            setImage("kot.gif");
             getImage().mirrorHorizontally();}
         if(Greenfoot.isKeyDown("z")){
             gdzie=2;
-            setLocation(390,490);
-            setImage("nupogodi.png");
+            setLocation(370,460);
+            setImage("kot.gif");
             getImage().mirrorHorizontally();}
         if(Greenfoot.isKeyDown("k")){
             gdzie=0;
-            setLocation(410,240);
-            setImage("nupogodi.png");}    
+            setLocation(430,210);
+            setImage("kot.gif");}    
         if(Greenfoot.isKeyDown("m")){
             gdzie=1;
-            setLocation(410,490);
-            setImage("nupogodi.png");}    
+            setLocation(430,460);
+            setImage("kot.gif");}    
     }    
 }
